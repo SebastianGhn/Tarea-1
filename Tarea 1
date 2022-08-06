@@ -1,4 +1,5 @@
 Codigo correcto ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 package com.mycompany.tarea__1;
 
 import java.util.Scanner;
@@ -29,7 +30,7 @@ public class Tarea__1 {
     }
 }
 
-// Primer codigo fallido ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Primer codigo fallido ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 package com.mycompany.tarea_1;
