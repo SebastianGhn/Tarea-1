@@ -1,0 +1,62 @@
+Codigo correcto ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+package com.mycompany.tarea__1;
+
+import java.util.Scanner;
+
+import java.util.Arrays;
+
+public class Tarea__1 {
+
+    public static void main(String[] args) {
+        
+        int i = 0;
+       
+        int[] lista = new int[5];
+
+        Scanner teclado = new Scanner(System.in);
+
+        for(i=0; i<lista.length; i++)
+        {
+            System.out.println("Introduzca un dato: ");
+            
+            lista[i] = teclado.nextInt();
+        }
+
+        for(i=0; i<lista.length; i++)
+        {
+            System.out.println("La lista con los datos ingresados fue: "+lista[i]);
+        } 
+    }
+}
+
+// Primer codigo fallido ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+package com.mycompany.tarea_1;
+
+import java.util.Scanner;
+
+public class Tarea_1 {
+
+    public static void main(String[] args) {
+        
+        Scanner nuevoelemento = new Scanner (System.in);
+        
+        int [] lista = new int [5];
+        
+        for (int i=0;i<lista.length;i++){
+            
+            int listanumero = 0;
+            
+            System.out.println("Ingrese un dato: ");
+            
+            int dato = nuevoelemento.nextInt();
+            
+            lista [listanumero] = dato;
+            
+            listanumero++;
+            
+            System.out.println("La lista con los datos ingresados fue: "+lista[listanumero]);
+        }
+    }
+}
